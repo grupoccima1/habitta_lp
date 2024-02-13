@@ -1,100 +1,126 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CCIMA</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="public/css/main.css">
+  <title>Habitta</title>
+  <link rel="stylesheet" href="public/css/main.css">
 </head>
+
+<!-- Juan 10:16 am -->
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-          <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand FuturaDemi text-primario" href="#">Habitta.com</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end Roboto-Medium" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- hero -->
+    <section id="hero">
+      <div class="container">
+        <div class="row h100vh">
+          <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center h-100 pr-2">
+            <h1>FIND YOUR NEXT HOME </h1>
+            <p>It’s the future, and buying real estate is now real simple. You can buy a house or even rent a place to
+              live anywhere in the world. The process is quick and easy, and you can do it from your phone!</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-3">
-                <button class="btn text-white bg__primario me-md-2" type="button">Discover More</button>
-            </div>
-            <div class="navbar-brand">
-                <div class="d-flex justify-content-center">
-                    <img src="public/img/logo_main.png" alt="">
-                </div>
-            </div>
-            <div class="collapse navbar-collapse justify-content-end Roboto-Medium" id="navbarNav">
-              <ul class="navbar-nav ">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Vacantes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Filosofia</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Nuestros proyectos</a>
-                </li>
-              </ul>
+              <button class="btn text-white bg__primario me-md-2" type="button">Empezar</button>
+              <button class="btn text-white bg__primario" type="button">Empezar</button>
             </div>
           </div>
-        </nav>
-      </header>
-      <main>
-        <section id="hero">
-            <div class="container">
-              <div class="row h100vh">
-                
-                <div class="col-sm-12 col-md-5 d-flex flex-column justify-content-center h-100 pr-2">
-                  <h1>OPORTUNIDADES</h1>
-                  <p>Toma el control de tu futuro financiero y logra la vida que siempre haz soñado</p>
-                  <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-3">
-                    <button class="btn text-white bg__primario me-md-2" type="button">Contacta a tu aliado sherpa</button>
-                  </div>
-                </div>
 
-                <div class="col-sm-12 col-md-7 d-flex align-items-end">
-                  <img class="" src="public/img/main_1.jpg" alt="">
-                </div>
+          <div class="col-sm-12 col-md-6 position-relative">
+            <img class="position-absolute w-75 bottom-1 " src="public/img/content/main_1.jpg" alt="">
+            <img class="position-absolute w-75 right-1 z-1" src="public/img/content/main_2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fin Hero -->
 
+    <!-- beneficios -->
+    <section class="seccion" id="beneficios">
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6  text-center">
+            <h2 class="text-master">FIND YOUR NEXT HOME </h2>
+            <p class="FuturaBook">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex veritatis corrupti a amet
+              incidunt ea inventore, labore unde optio quis tempore quaerat </p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-4">
+            <div class=" bg__gray-500 px-3 py-5">
+              <img class="w64px" src="public/img/icons/bx-buildings.svg" alt="">
+              <h4 class="pt-3">FIND YOUR NEXT HOME </h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis deleniti iure nisi officia! Illo
+                praesentium mollitia corrupti. Animi consectetur sapiente recusandae</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-5">
+                <button class="btn text-white bg__primario me-md-2" type="button">Ver mas</button>
               </div>
             </div>
-          </section>
-
-          <section class="seccion" id="">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-12 col-md-3 d-flex justify-content-md-start">
-                  <h2 class="text-master"> </h2>
-                  <p class="FuturaBook">Explore oportunidades recientes</p>
-                </div>
-                <div class="col-12 col-md-9 d-flex justify-content-center">
-                  <h2 class="text-master"> </h2>
-                  <p class="FuturaBook">Creamos el poder de la alianza para generar progreso en nuestro entorno</p>
-                </div>
-              </div>
-              <div class="row mt-5">
-                <div class="col-md-3">
-                    <img class="" src="public/img/main_2.jpg" alt="">
-                </div>
-                <div class="col-md-3">
-                    <img class="" src="public/img/main_3.png" alt="">
-                </div>
-                <div class="col-md-3">
-                    <img class="" src="public/img/main_4.png" alt="">
-                </div>
-                <div class="col-md-3">
-                    <img class="" src="public/img/main_5.png" alt="">
-                </div>
+          </div>
+          <div class="col-md-4">
+            <div class=" bg__gray-500 px-3 py-5">
+              <img class="w64px" src="public/img/icons/bx-buildings.svg" alt="">
+              <h4 class="pt-3">FIND YOUR NEXT HOME </h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis deleniti iure nisi officia! Illo
+                praesentium mollitia corrupti. Animi consectetur sapiente recusandae</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-5">
+                <button class="btn text-white bg__primario me-md-2" type="button">Ver mas</button>
               </div>
             </div>
-          </section>
-          
+          </div>
+          <div class="col-md-4">
+            <div class=" bg__gray-500 px-3 py-5">
+              <img class="w64px" src="public/img/icons/bx-buildings.svg" alt="">
+              <h4 class="pt-3">FIND YOUR NEXT HOME </h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis deleniti iure nisi officia! Illo
+                praesentium mollitia corrupti. Animi consectetur sapiente recusandae</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-5">
+                <button class="btn text-white bg__primario me-md-2" type="button">Ver mas</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fin de beneficios -->
+    <section class="parallax-section" id="Promociones">
+      <div class="w550px">
+        <h3>FIND YOUR NEXT HOME</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
+          pulvinar dapibus leo.</p>
+        <button class="btn text-white bg__primario me-md-2 mt-3">Detalles</button>
+      </div>
+    </section>
+    <!-- beneficios -->
     <section class="seccion" id="beneficios">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators d-none">
@@ -109,17 +135,8 @@
           <div class="carousel-item active">
             <div class="container">
               <div class="row">
-                <div class="col-12">
-                  <img src="public/img/main_6.png" class="d-block w-100" alt="imagen 01">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row">
                 <div class="col-6">
-                  <img src="public/img/main_6.png" class="d-block w-100" alt="imagen 01">
+                  <img src="public/img/content/Carrusel_01.jpg" class="d-block w-100" alt="imagen 01">
                 </div>
                 <div class="col-6 d-flex flex-column justify-content-center">
                   <div class=" d-none d-md-block text-dark">
@@ -139,12 +156,37 @@
           <div class="carousel-item">
             <div class="container">
               <div class="row">
-                  <img src="public/img/main_6.png" class="d-block w-100" alt="imagen 01">
+                <div class="col-6">
+                  <img src="public/img/content/Carrusel_01.jpg" class="d-block w-100" alt="imagen 01">
+                </div>
                 <div class="col-6 d-flex flex-column justify-content-center">
                   <div class=" d-none d-md-block text-dark">
-                    <span class="FuturaDemi fs_24px text-slave"></span>
-                    <h5 class="FuturaDemi fs-1"></h5>
-                    <p>.</p>
+                    <span class="FuturaDemi fs_24px text-slave">01 CASOS DE USO</span>
+                    <h5 class="FuturaDemi fs-1">First slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                      mattis,
+                      pulvinar dapibus leo.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-5">
+                      <button class="btn text-white bg__primario me-md-2" type="button">Ver mas</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <img src="public/img/content/Carrusel_01.jpg" class="d-block w-100" alt="imagen 01">
+                </div>
+                <div class="col-6 d-flex flex-column justify-content-center">
+                  <div class=" d-none d-md-block text-dark">
+                    <span class="FuturaDemi fs_24px text-slave">01 CASOS DE USO</span>
+                    <h5 class="FuturaDemi fs-1">First slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                      mattis,
+                      pulvinar dapibus leo.</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-5">
                       <button class="btn text-white bg__primario me-md-2" type="button">Ver mas</button>
                     </div>
@@ -166,10 +208,70 @@
         </button>
       </div>
     </section>
+    <!-- fin de beneficios -->
 
-          <!-- Agregar el video de Sherpa Reproduccion automatica -->
-          <!-- Agregar las Fuentes Futura book demi bold -->
-          <!-- animar el countdown  -->
-      </main>
+    <section class="seccion" id="Proyectos">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6  text-center">
+            <h2 class="text-master">FIND YOUR NEXT HOME </h2>
+            <p class="FuturaBook">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex veritatis corrupti a amet
+              incidunt ea inventore, labore unde optio quis tempore quaerat </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-3">
+            <div class="p-2">
+              <img src="public/img/content/main_3.jpg" alt="">
+              <img src="public/img/content/main_6.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-4 d-flex align-items-end">
+            <div class="p-2">
+              <img src="public/img/content/main_5.jpg" alt=""">
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="p-2">
+              <img src="public/img/content/main_4.jpg" alt="">
+              <img src="public/img/content/main_7.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" id="Testimonios">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-2 text center">
+            <h2 class="text-master">Testimoniales</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-3">
+            <div class="p-2">
+              <img src="public/img/content/main_8.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-6 d-flex align-items-center">
+            <div>
+              <p class="FuturaBook">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur impedit illum, 
+                nesciunt assumenda voluptatum necessitatibus reprehenderit aliquid nostrum placeat, perferendis voluptate ullam ex odio odit. 
+                ossimus earum sequi culpa vel!</p>
+              <span>FIND YOUR NEXT HOME</span>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <script src="public/js/main.js"></script>
 </body>
+
 </html>
